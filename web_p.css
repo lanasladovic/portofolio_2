@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html,
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(img/night-northern-lights-nature-lights-37608.jpeg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+.menu {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.inner2 {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu2 {
+    font-family: 'raleway', sans-serif;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu2:hover {
+    color: #522e18;
+    font-weight: bold;
+}
+
+.menu:hover {
+    color: #522e18;
+    font-weight: bold;
+}
+
+.inner {
+    animation: fadeIn 10s;
+}
+
+.inner2 {
+    animation: fadeIn 6s;
+}
+
+
+/* portfolio */
+
+#holder {
+    margin: 150px;
+    float: left;
+    margin-left: 220px;
+    position: relative;
+    font-size: 10px;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#holder {
+    height: 200px;
+    background-color: none;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*#holder {
+    width: 850px;
+    height: 200px;
+    background-color: none;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#holder {
+    margin: 170px;
+    float: left;
+    margin-left: 350px;
+    position: relative;
+}*/
+
+.box1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+    opacity: .3;
+    transition: 2s;
+}
+
+.box2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+    margin-left: 28px;
+    opacity: .3;
+}
+
+.box3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+    margin-left: 28px;
+    opacity: .3;
+}
+
+.box4 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    margin-left: 28px;
+    opacity: .3;
+}
+
+.box5 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    margin-left: 28px;
+    opacity: .3;
+}
+
+.box1 a {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    font-size: 20px;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.box2 a {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.box3 a {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.box4 a {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.box5 a {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fefcde;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+
+/* box anim */
+
+.box1 {
+    animation: fadeIn2 3s;
+}
+
+.box2 {
+    animation: fadeIn2 3s;
+}
+
+.box3 {
+    animation: fadeIn2 3s;
+}
+
+.box4 {
+    animation: fadeIn2 3s;
+}
+
+.box5 {
+    animation: fadeIn2 3s;
+}
+
+.naslov:hover {
+    color: white;
+    opacity: 7;
+}
+
+
+/* ABOUT*/
+
+.fotka {}
+
+.circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 200px;
+}
+
+#poz {
+    height: 200px;
+    background-color: none;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#poz {
+    margin: 7px;
+    float: left;
+    margin-left: 150px;
+    position: relative;
+    color: #fefcde;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-shadow: 0px 0px 300px #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.arcana {
+    float: left;
+}
+
+.xp {
+    float: left;
+    margin-left: 30px;
+}
+
+.hob {
+    float: right;
+    margin-left: 40px;
+}
+
+
+/* div anim */
+
+.arcana {
+    animation: fadeIn 5s;
+}
+
+.xp {
+    animation: fadeIn 5s;
+}
+
+.hob {
+    animation: fadeIn 5s;
+}
+
+.circle {
+    animation: fadeIn 5s;
+}
+
+.prvi {
+    animation: fadeIn 5s;
+}
+
+.drugi {
+    animation: fadeIn 5s;
+}
+
+.box1:hover {
+    background: #976b45;
+    margin: 20px;
+    transition: 2s;
+    transform: scale(o.5);
+}
+
+.box2:hover {
+    background: #976b45;
+    margin: 20px;
+    transition: 2s;
+    transform: scale(o.5);
+}
+
+.box3:hover {
+    background: #976b45;
+    margin: 20px;
+    transition: 2s;
+    transform: scale(o.5);
+}
+
+.box4:hover {
+    background: #976b45;
+    margin: 20px;
+    transition: 2s;
+    transform: scale(o.5);
+}
+
+.box5:hover {
+    background: #976b45;
+    margin: 20px;
+    transition: 2s;
+    transform: scale(o.5);
+}
+
+
+/* basicWebD */
+
+.prvi h2 {
+    font-size: 25px;
+}
+
+.drugi h2 {
+    font-size: 25px;
+}
+
+.prvi {
+    float: left;
+}
+
+.drugi {
+    float: left;
+    margin-left: 150px;
+}
+
+.prvi1 {
+    font-size: 15px;
+    color: #976b45;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.drugi2 {
+    font-size: 15px;
+    color: #976b45;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* css keyframes */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .2;
+    }
+}
